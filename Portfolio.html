@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap css cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- FontAwesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+
+    <!-- External css link  -->
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+
+
+</head>
+<body>
+<section class="navbars">
+    <div class="child">
+        <h2>Hi, I'm Sworup!</h2>
+        <p>I am a Web Developer</p>
+        <i class="fa-solid fa-angles-down" onclick="scrollDown()"></i>
+    </div> 
+</section>
+
+        <nav class="shadow-lg bg-white navbar navbar-expand-lg  sticky-top navbar-style">
+            <div class="container">
+              <a class="a-style">Portfolio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  text-white" href="#about">about</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link  text-white" href="#services">services</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link  text-white" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  text-white" href="#">contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col d-flex justify-content-center text-center heading m-3">
+                        <h2>About Me</h2>
+                      </div>
+                </div>
+
+                <div class="row g-3 mt-3">
+                    <div class="col-md-6 img-div">
+                        <img src="images/tony.jpg" alt="">
+                    </div>
+
+                    <div class="col-md-6 d-flex flex-column justify-content-center align-items-start desc-div">
+                        <h2>
+                        I'm Sworup Khatri and I'm a fast learner and a Web Developer
+                        </h2>
+                        <p class="fst-italic">Welcome viewers! This is Sworup Kc currently living at Bhaktapur and learning BCA at kathmandu college of technology. I love to design and develop websites and mobile applications and besides from that I love to sing a song, to make youtube videos, to watch and play football and love to travel.</p>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias natus aliquid enim rerum culpa aut libero odit consectetur, quas officiis corrupti eos blanditiis quisquam recusandae explicabo corporis laudantium. Suscipit, praesentium.</p>
+
+                      <a class="cv" href="https://drive.google.com/drive/folders/1579aPAPq7m2fkjWMW_5Ogia4NK40B4v_" target="_blank">Download CV</a>
+                    </div>
+                </div>
+            </div>
+      </section>
+
+
+
+      
+      <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col d-flex justify-content-center text-center heading1 m-3">
+                    <h2>My Services</h2>
+                  </div>
+            </div>
+            <div class="row g-3 mt-3">
+                <div class="col-12 col-md-6 col-lg-3">
+                  <div class="card rounded shadow cards">
+                      <div class="card-body cb">
+                        <i class="fa-solid fa-paintbrush fa"></i>
+                        <h5 class="card-title text-center">Web Designing</h5>
+                        <p class="card-text text-secondary text-justify">I have been designing the web contents using figma since 2020.</p>
+                      </div>
+                  </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-3">
+                  <div class="card rounded shadow cards">
+                      <div class="card-body cb">
+                        <i class="fa-solid fa-code fa"></i>
+                        <h5 class="card-title text-center">Web Development</h5>
+                        <p class="card-text text-secondary   text-justify">I have been Developing websites using html,css,js,bootstarp,php and React since 2021.</p>
+                      </div>
+                  </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-3">
+                  <div class="card rounded shadow cards">
+                      <div class="card-body cb">
+                        <i class="fa-thin fa-tablet-button fa"></i>
+                        <h5 class="card-title text-center">App Development</h5>
+                        <p class="card-text text-secondary  text-justify">I have been Developing mobile appilication since 2022.</p>
+                      </div>
+                  </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-lg-3">
+                  <div class="card rounded shadow cards">
+                      <div class="card-body cb">
+                        <i class="fa-brands fa-youtube fa"></i>
+                        <h5 class="card-title text-center">Youtube Videos</h5>
+                        <p class="card-text text-secondary   text-justify">I have been providing educationl material through youtube videos since 2021.</p>
+                      </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+  </section>
+
+
+  <section id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col d-flex justify-content-start heading2 m-3">
+            <h2>Portfolio</h2>
+          </div>
+       </div>
+
+       <div class="row">
+        <div class="col-12 port">
+         <p class="mr-2">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+    </div>
+
+      <div class="row">
+        <div class="col-12 shadow-lg d-flex justify-content-center align-items-center port_aacw">
+          <h5 class="porth5 hActive" onclick="showAll()">All</h5>
+          <h5 class="porth5" onclick="showApp()">App</h5>
+          <h5 class="porth5" onclick="showCard()">Card</h5>
+          <h5 class="porth5" onclick="showWeb()">Web</h5>
+        </div>
+      </div>
+
+        
+      <div class="container mt-3" id="All">
+        <div class="row m-3">
+          <div class="col-12 col-md-6 col-lg-4 mt-3 main_elements">
+            <div class="port_img_container">
+              <img class="port_img img-fluid" src="/images/1.jpg" alt="">
+            </div>
+            <div class="Hovered_Elements">
+              <div class="portfolio_info">
+                <h4>App1</h4>
+                <p>App</p>
+              </div>
+              <div class="portfolio_links">
+                <i class="fa-solid fa-plus icon"></i>
+                  <i class="fa-solid fa-link icon"></i>
+              </div>
+          </div>
+          </div>
+         
+          <div class="col-12 col-md-6 col-lg-4 mt-3 main_elements">
+            <div class="port_img_container">
+              <img class="port_img img-fluid" src="/images/p2.jpg" alt="">
+            </div>
+            <div class="Hovered_Elements">
+              <div class="portfolio_info">
+                <h4>App1</h4>
+                <p>App</p>
+              </div>
+              <div class="portfolio_links">
+                <i class="fa-solid fa-plus icon"></i>
+                  <i class="fa-solid fa-link icon"></i>
+              </div>
+          </div>
+          </div>
+
+
+          <div class="col-12 col-md-6 col-lg-4 mt-3 main_elements">
+            <div class="port_img_container">
+              <img class="port_img img-fluid" src="/images/p3.jpg" alt="">
+            </div>
+            <div class="Hovered_Elements">
+              <div class="portfolio_info">
+                <h4>App1</h4>
+                <p>App</p>
+              </div>
+              <div class="portfolio_links">
+                <i class="fa-solid fa-plus icon"></i>
+                  <i class="fa-solid fa-link icon"></i>
+              </div>
+          </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 mt-3 main_elements">
+            <div class="port_img_container">
+              <img class="port_img img-fluid" src="/images/p4.jpg" alt="">
+            </div>
+            <div class="Hovered_Elements">
+              <div class="portfolio_info">
+                <h4>App1</h4>
+                <p>App</p>
+              </div>
+              <div class="portfolio_links">
+                <i class="fa-solid fa-plus icon"></i>
+                  <i class="fa-solid fa-link icon"></i>
+              </div>
+          </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 mt-3 main_elements">
+            <div class="port_img_container">
+              <img class="port_img img-fluid" src="/images/p5.jpg" alt="">
+            </div>
+            <div class="Hovered_Elements">
+              <div class="portfolio_info">
+                <h4>App1</h4>
+                <p>App</p>
+              </div>
+              <div class="portfolio_links">
+                <i class="fa-solid fa-plus icon"></i>
+                  <i class="fa-solid fa-link icon"></i>
+              </div>
+          </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mt-3 main_elements">
+            <div class="port_img_container">
+              <img class="port_img img-fluid" src="/images/p6.jpg" alt="">
+            </div>
+            <div class="Hovered_Elements">
+              <div class="portfolio_info">
+                <h4>App1</h4>
+                <p>App</p>
+              </div>
+              <div class="portfolio_links">
+                <i class="fa-solid fa-plus icon"></i>
+                  <i class="fa-solid fa-link icon"></i>
+              </div>
+          </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mt-3 main_elements">
+            <div class="port_img_container">
+              <img class="port_img img-fluid" src="/images/p7.jpg" alt="">
+            </div>
+            <div class="Hovered_Elements">
+              <div class="portfolio_info">
+                <h4>App1</h4>
+                <p>App</p>
+              </div>
+              <div class="portfolio_links">
+                <i class="fa-solid fa-plus icon"></i>
+                  <i class="fa-solid fa-link icon"></i>
+              </div>
+          </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mt-3 main_elements">
+            <div class="port_img_container">
+              <img class="port_img img-fluid" src="/images/p8.jpg" alt="">
+            </div>
+            <div class="Hovered_Elements">
+              <div class="portfolio_info">
+                <h4>App1</h4>
+                <p>App</p>
+              </div>
+              <div class="portfolio_links">
+                <i class="fa-solid fa-plus icon"></i>
+                  <i class="fa-solid fa-link icon"></i>
+              </div>
+          </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mt-3 main_elements ">
+            <div class="port_img_container">
+              <img class="port_img img-fluid" src="/images/p9.jpg" alt="">
+            </div>
+            <div class="Hovered_Elements">
+              <div class="portfolio_info">
+                <h4>App1</h4>
+                <p>App</p>
+              </div>
+              <div class="portfolio_links">
+                <i class="fa-solid fa-plus icon"></i>
+                  <i class="fa-solid fa-link icon"></i>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- App -->
+
+      <div class="container" id="App">
+        <div class="row m-3">
+          <div class="col-12 col-md-6 col-lg-4 mt-3 main_elements">
+            <div class="port_img_container">
+              <img class="port_img img-fluid" src="/images/1.jpg" alt="">
+            </div>
+            <div class="Hovered_Elements">
+              <div class="portfolio_info">
+                <h4>App1</h4>
+                <p>App</p>
+              </div>
+              <div class="portfolio_links">
+                <i class="fa-solid fa-plus icon"></i>
+                  <i class="fa-solid fa-link icon"></i>
+              </div>
+          </div>
+          </div>
+        
+
+      <div class="col-12 col-md-6 col-lg-4 mt-3 main_elements">
+        <div class="port_img_container">
+          <img class="port_img img-fluid" src="/images/p2.jpg" alt="">
+        </div>
+        <div class="Hovered_Elements">
+          <div class="portfolio_info">
+            <h4>App1</h4>
+            <p>App</p>
+          </div>
+          <div class="portfolio_links">
+            <i class="fa-solid fa-plus icon"></i>
+              <i class="fa-solid fa-link icon"></i>
+          </div>
+      </div>
+      </div>
+
+
+      <div class="col-12 col-md-6 col-lg-4 mt-3 main_elements">
+        <div class="port_img_container">
+          <img class="port_img img-fluid" src="/images/p3.jpg" alt="">
+        </div>
+        <div class="Hovered_Elements">
+          <div class="portfolio_info">
+            <h4>App1</h4>
+            <p>App</p>
+          </div>
+          <div class="portfolio_links">
+            <i class="fa-solid fa-plus icon"></i>
+              <i class="fa-solid fa-link icon"></i>
+          </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- card  -->
+
+  <div class="container" id="Card">
+    <div class="row m-3">
+      <div class="col-12 col-md-6 col-lg-4 mt-3 main_elements">
+        <div class="port_img_container">
+          <img class="port_img img-fluid" src="/images/p4.jpg" alt="">
+        </div>
+        <div class="Hovered_Elements">
+          <div class="portfolio_info">
+            <h4>App1</h4>
+            <p>App</p>
+          </div>
+          <div class="portfolio_links">
+            <i class="fa-solid fa-plus icon"></i>
+              <i class="fa-solid fa-link icon"></i>
+          </div>
+      </div>
+      </div>
+    
+
+  <div class="col-12 col-md-6 col-lg-4 mt-3 main_elements">
+    <div class="port_img_container">
+      <img class="port_img img-fluid" src="/images/p5.jpg" alt="">
+    </div>
+    <div class="Hovered_Elements">
+      <div class="portfolio_info">
+        <h4>App1</h4>
+        <p>App</p>
+      </div>
+      <div class="portfolio_links">
+        <i class="fa-solid fa-plus icon"></i>
+          <i class="fa-solid fa-link icon"></i>
+      </div>
+  </div>
+  </div>
+
+
+  <div class="col-12 col-md-6 col-lg-4 mt-3 main_elements">
+    <div class="port_img_container">
+      <img class="port_img img-fluid" src="/images/p6.jpg" alt="">
+    </div>
+    <div class="Hovered_Elements">
+      <div class="portfolio_info">
+        <h4>App1</h4>
+        <p>App</p>
+      </div>
+      <div class="portfolio_links">
+        <i class="fa-solid fa-plus icon"></i>
+          <i class="fa-solid fa-link icon"></i>
+      </div>
+  </div>
+  </div>
+</div>
+</div>
+
+<!-- Web -->
+
+<div class="container" id="Web">
+  <div class="row m-3">
+    <div class="col-12 col-md-6 col-lg-4 mt-3 main_elements">
+      <div class="port_img_container">
+        <img class="port_img img-fluid" src="/images/p7.jpg" alt="">
+      </div>
+      <div class="Hovered_Elements">
+        <div class="portfolio_info">
+          <h4>App1</h4>
+          <p>App</p>
+        </div>
+        <div class="portfolio_links">
+          <i class="fa-solid fa-plus icon"></i>
+            <i class="fa-solid fa-link icon"></i>
+        </div>
+    </div>
+    </div>
+  
+
+<div class="col-12 col-md-6 col-lg-4 mt-3 main_elements">
+  <div class="port_img_container">
+    <img class="port_img img-fluid" src="/images/p8.jpg" alt="">
+  </div>
+  <div class="Hovered_Elements">
+    <div class="portfolio_info">
+      <h4>App1</h4>
+      <p>App</p>
+    </div>
+    <div class="portfolio_links">
+      <i class="fa-solid fa-plus icon"></i>
+        <i class="fa-solid fa-link icon"></i>
+    </div>
+</div>
+</div>
+
+
+<div class="col-12 col-md-6 col-lg-4 mt-3 main_elements">
+  <div class="port_img_container">
+    <img class="port_img img-fluid" src="/images/p9.jpg" alt="">
+  </div>
+  <div class="Hovered_Elements">
+    <div class="portfolio_info">
+      <h4>App1</h4>
+      <p>App</p>
+    </div>
+    <div class="portfolio_links">
+      <i class="fa-solid fa-plus icon"></i>
+        <i class="fa-solid fa-link icon"></i>
+    </div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+    
+
+  </section>
+
+
+      
+
+
+
+          <!-- javascript -->
+<script src="/index.js"></script>
+    
+</body>
+</html>
