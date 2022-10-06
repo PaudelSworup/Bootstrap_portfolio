@@ -78,6 +78,33 @@ const showWeb = () =>{
 }
 
 
+const myData = [
+    {
+        id:1,
+        name:'Andriod',
+    },
+
+    {
+        id:2,
+        name:'Mysql',
+    }
+]
+
+
+let andriod = document.getElementById('Android')
+let mysql = document.getElementById('mysql')
+
+function setData(){
+    mysql.getElementsByClassName('sql')[0].innerHTML = myData[1].name
+    andriod.getElementsByClassName('and')[0].innerHTML = myData[0].name;
+}
+
+
+
+
+
+
+
 
 
 

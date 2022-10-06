@@ -409,6 +409,8 @@ text-size-adjust: auto;
     display: none;
 }
 
+/* portfolio end here */
+
 /* .elem::before{
     content: "Hello";
     position: absolute;
@@ -454,6 +456,76 @@ text-size-adjust: auto;
     height: 100%;
     opacity: 0.9;
 } */
+
+
+
+#skills{
+    background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+}
+
+.progress-line{
+    height: 10px;
+    position: relative;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.05),0px 1px rgba(255,255,255,0.8),
+}
+
+.progress-line > span{
+    height: 100%;
+    width: 80%;
+    background: crimson;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.progress-line > span::before{
+    content: "";
+    position: absolute;
+    height: 0;
+    right: 0;
+    top: -10px;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color:#000 ;
+}
+
+.progress-line > span::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: -30px;
+    background-color: black;
+    color: #f0f0f0;
+    padding: 0px 6px;
+    border-radius: 5px;
+}
+
+.progress-line.html > span::after{
+    content: "100%";
+}
+
+.progress-line.css > span::after{
+    content: "60%";
+}
+
+.progress-line.js > span::after{
+    content: "80%";
+}
+
+.progress-line.php > span::after{
+    content: "55%";
+}
+
+.progress-line.java > span::after{
+    content: "60%";
+}
+
+.progress-line.apk > span::after{
+    content: "60%";
+}
 
 
 
